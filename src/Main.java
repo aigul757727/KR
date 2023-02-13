@@ -2,7 +2,6 @@ import java.util.Random;
 
 public class Main {
     private static final Emloyee[] EMLOYEES = new Emloyee[10];
-
     public static void main(String[] args) {
         fillEmloyees();
         printFullInfo();
@@ -28,7 +27,6 @@ public class Main {
             System.out.println(emloyee);
         }
     }
-
     private static int totalSalaries (){
         int sum =0;
         for (Emloyee employee: EMLOYEES) {
